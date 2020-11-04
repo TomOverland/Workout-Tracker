@@ -17,7 +17,10 @@ app.use(express.static("public"));
 
 // Setting up Mongo DB
 let MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
-mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(MONGODB_URI, { 
+    useNewUrlParser: true, 
+    useUnifiedTopology: true 
+});
 
 // Creating Routes
 require("./routes/apiRoutes")(app);
