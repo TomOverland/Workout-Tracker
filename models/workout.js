@@ -47,7 +47,7 @@ const workoutSchema = new Schema(
   }
 );
 
-// Creating total duration property
+// Creating total duration property which is displayed on /:id
 workoutSchema.virtual("totalDuration").get(function() {
   // "reduce" array of exercises down to just the sum of their durations
   return this.exercises.reduce((total, exercise) => {

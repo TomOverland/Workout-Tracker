@@ -1,7 +1,13 @@
 const path = require("path");
 
 module.exports = function(app) {
-    // Displays landing page, where you can start or complete a workout
+    // Displays landing page, where you can start or complete a workout.
+    // The last workout will be displayed per index.js
+    app.get("/", function(req, res){
+        res.sendFile(path.join(__dirname, "../public.index.html"));
+    })
+
+    // Displays add your exercise page
     app.get("/exercise", function(req, res) {
         res.sendFile(path.join(__dirname, "../public/exercise.html"));
     });
