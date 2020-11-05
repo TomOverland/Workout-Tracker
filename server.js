@@ -15,11 +15,13 @@ app.use(express.urlencoded({ extended:true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-// Setting up Mongo DB
+// Setting up Mongo DB for heroku and localhost
 let MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
 mongoose.connect(MONGODB_URI, { 
     useNewUrlParser: true, 
-    useUnifiedTopology: true 
+    useUnifiedTopology: true, 
+    useCreateIndex: true,
+    useFindAndModify: false
 });
 
 // Creating Routes
