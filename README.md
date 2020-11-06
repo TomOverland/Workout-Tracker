@@ -23,7 +23,7 @@ The user can then view the analytics of their workouts on the stats page, which 
 
 The code editor I used was Visual Studio Code. It can be found [here](https://code.visualstudio.com/download).  
 Node.js and NPM download can be found [here](https://nodejs.org/en/).  
-MySQL workbench can be found [here](https://dev.mysql.com/downloads/workbench/).
+MongoDB can be found [here](https://www.mongodb.com/try/download/community).
 
 #### Step 2 - Clone my repository
 
