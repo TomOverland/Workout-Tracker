@@ -4,6 +4,10 @@
 
 ![Screenshot of Application](https://github.com/TomOverland/Workout-Tracker/blob/main/public/assets/Add-New-Exercise.JPG)
 
+![Screenshot of Application](https://github.com/TomOverland/Workout-Tracker/blob/main/public/assets/Analytics.JPG)
+
+
+
 ## Description:
 
 This application demonstrates a simple full stack development CRUD application with front end implemented with an HTML/CSS and Semantic UI.  The backend is implemented with Node.js and Express. The database was constructed with MongoDB and Mongoose and implemented to Heroku with Mongo Atlas.
