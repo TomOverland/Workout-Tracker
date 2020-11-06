@@ -4,11 +4,6 @@
 
 ![Screenshot of Application](https://github.com/TomOverland/Workout-Tracker/blob/main/public/assets/Last-Workout.JPG)
 
-![Screenshot of Application](https://github.com/TomOverland/Workout-Tracker/blob/main/public/assets/Add-New-Exercise.JPG)
-
-![Screenshot of Application](https://github.com/TomOverland/Workout-Tracker/blob/main/public/assets/Analytics.JPG)
-
-
 ## Description:
 
 This application demonstrates a simple full stack development CRUD application with front end implemented with an HTML/CSS and Semantic UI.  The backend is implemented with Node.js and Express. The database was constructed with MongoDB and Mongoose and implemented to Heroku with Mongo Atlas.
@@ -16,6 +11,11 @@ This application demonstrates a simple full stack development CRUD application w
 The app allows a user to track their daily workouts. The app allows the user to log multiple exercises in a workout on a given day. The user is able to enter the name of the exercise, the type of exercise (resistance or cardio), the weight, sets, reps, and duration of the exercise. If the exercise is a cardio workout, then the user is able to track the distance traveled as well. Submitting a workout enters the exercise's information into the Mongo database. If the user wants to track multiple workouts throughout the day, they can "continue workout" to add additional exercises to that day's workout.  
   
 The user can then view the analytics of their workouts on the stats page, which consists of four graphs from Charts.js.
+
+![Screenshot of Application](https://github.com/TomOverland/Workout-Tracker/blob/main/public/assets/Add-New-Exercise.JPG)
+
+![Screenshot of Application](https://github.com/TomOverland/Workout-Tracker/blob/main/public/assets/Analytics.JPG)
+
 
 ## Installation:
 
