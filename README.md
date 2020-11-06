@@ -8,7 +8,7 @@
 
 - [Description](#description)
 - [Installation](#installation)
-- [Technology Used](#technology)
+- [Technology Used](#technology-used)
 - [Built With](#built)
 - [License](#license)
 - [Demonstration](#demonstration)
