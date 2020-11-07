@@ -2,9 +2,7 @@
 
 [Deployed on Heroku](https://agile-anchorage-58361.herokuapp.com/).
 
-![Screenshot of Application](https://github.com/TomOverland/Workout-Tracker/blob/main/public/assets/Last-Workout.JPG)
-
-# Table of Contents
+## Table of Contents
 
 - [Description](#description)
 - [Installation](#installation)
@@ -13,6 +11,9 @@
 - [License](#license)
 - [Demonstration](#demonstration)
 - [Questions](#questions)
+
+![Screenshot of Application](https://github.com/TomOverland/Workout-Tracker/blob/main/public/assets/Last-Workout.JPG)
+
 
 ## Description:
 
