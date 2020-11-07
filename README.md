@@ -1,5 +1,7 @@
 # Workout-Tracker
 
+This application demonstrates a simple full stack development CRUD application with front end implemented with an HTML/CSS and Semantic UI.  The backend is implemented with Node.js and Express. The database was constructed with Mongoose and MongoDB, and implemented to Heroku with MongoDB Atlas.
+
 [Deployed on Heroku](https://agile-anchorage-58361.herokuapp.com/).
 
 ## Table of Contents
@@ -16,8 +18,6 @@
 
 
 ## Description:
-
-This application demonstrates a simple full stack development CRUD application with front end implemented with an HTML/CSS and Semantic UI.  The backend is implemented with Node.js and Express. The database was constructed with MongoDB and Mongoose and implemented to Heroku with Mongo Atlas.
 
 The app allows a user to track their daily workouts. The app allows the user to log multiple exercises in a workout on a given day. The user is able to enter the name of the exercise, the type of exercise (resistance or cardio), the weight, sets, reps, and duration of the exercise. If the exercise is a cardio workout, then the user is able to track the distance traveled as well. Submitting a workout enters the exercise's information into the Mongo database. If the user wants to track multiple workouts throughout the day, they can "continue workout" to add additional exercises to that day's workout.  
   
